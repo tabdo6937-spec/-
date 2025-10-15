@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdel Nasser T - Programming Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .login-form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .face-icon {
+            width: 100px;
+            height: 100px;
+            background-color: #ccc; /* Placeholder for the face image */
+            border-radius: 50%;
+            margin: 10px auto;
+            display: block;
+            background-image: url('placeholder.jpg'); /* Replace with your image of a computer and hacker */
+            background-size: cover;
+        }
+        .templates-section img {
+            width: 200px;
+            height: auto;
+            margin: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Abdel Nasser T</h1>
+        <p>Your go-to website for programming courses and resources</p>
+    </header>
+    
+    <div class="container">
+        <h2>Welcome to Abdel Nasser T</h2>
+        <p>This website offers professional programming templates, images, and courses to help you learn and excel in programming.</p>
+        
+        <!-- Face with a picture of a computer and a hacker -->
+        <div>
+            <h3>Our Mascot</h3>
+            <div class="face-icon" title="A face representing a computer and a hacker"></div>
+            <p>This icon symbolizes the world of programming, featuring a computer and a hacker for a fun, tech-savvy vibe.</p>
+        </div>
+        
+        <!-- Login Form -->
+        <div class="login-form">
+            <h3>Log In</h3>
+            <form action="login.php" method="POST"> <!-- In a real site, this would link to a backend script -->
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required><br><br>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required><br><br>
+                
+                <button type="submit">Log In</button>
+            </form>
+            <p>Don't have an account? <a href="register.html">Register here</a>.</p>
+        </div>
+        
+        <!-- Programming Templates and Images Section -->
+        <div class="templates-section">
+            <h3>Professional Programming Templates and Images</h3>
+            <p>Browse our collection of high-quality programming resources:</p>
+            <img src="https://via.placeholder.com/200?text=Programming+Template+1" alt="Programming Template 1">
+            <img src="https://via.placeholder.com/200?text=Programming+Image+2" alt="Programming Image 2">
+            <p>These are placeholders. Replace them with your actual professional templates and images related to coding and courses.</p>
+        </div>
+    </div>
+    
+    <footer>
+        <p>Contact us: Phone: 01098181296 | Location: Assiut Governorate, Egypt</p>
+        <p>&copy; 2023 Abdel Nasser T. All rights reserved.</p>
+    </footer>
+</body>
+</html>
